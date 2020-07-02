@@ -61,6 +61,9 @@ function modules() {
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./vendor/jquery-easing'));
+  // lazysizes
+  var lazysizes = gulp.src('./node_modules/lazysizes/*.js')
+      .pipe(gulp.dest('./vendor/lazysizes'));
   // jQuery
   var jquery = gulp.src([
       './node_modules/jquery/dist/*',
